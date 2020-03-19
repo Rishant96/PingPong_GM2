@@ -2,14 +2,14 @@ var event_id = async_load[? "id"]
 
 if server == event_id {
 	var type = async_load[? "type"]
-	var sock = async_load[? "sock"]
+	var sock = async_load[? "socket"]
 	
 	// client connecting
 	if (type == network_type_connect) {
 		// create player, add socket to list
 		ds_list_add(sockets, sock)
-		
-		var p = instance_create_layer(room_width/2, 0, "Instances", obj_paddle)
+		 
+		var p = instance_create_layer(room_width/2, room_height-32, "Instances", obj_paddle)
 		ds_map_add(clients, sock, p)
 	}
 	
