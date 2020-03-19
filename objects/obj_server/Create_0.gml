@@ -1,4 +1,7 @@
 #macro PORT		56560
-#macro MAX_CLIENTS	4
+#macro MAX_CLIENTS	2
 
 server = network_create_server(network_socket_tcp, PORT, MAX_CLIENTS)
+
+clients = ds_map_create()
+sockets = ds_list_create()
