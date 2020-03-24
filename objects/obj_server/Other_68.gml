@@ -26,3 +26,22 @@ if server == event_id {
 		ds_map_delete(clients, sock)
 	}
 }
+else if event_id != global.socket {
+	var sock = async_load[? "id"]
+	var buff = async_load[? "buffer"]
+	
+	buffer_seek(buff, buffer_seek_start, 0)
+	var cmd = buffer_read(buff, buffer_u8)
+	
+	var p = clients[? sock]
+	switch (cmd) {
+		case PACKET_KEY:
+			with(p) {
+				var key = buffer_read(buff, buffer_u8)
+				var state = buffer_read(buff, buffer_u8)
+				
+				keys[key] = state
+			}
+			break
+	}
+}
