@@ -8,8 +8,12 @@ if server == event_id {
 	if (type == network_type_connect) {
 		// create player, add socket to list
 		ds_list_add(sockets, sock)
-		 
-		var p = instance_create_layer(room_width/2, room_height-32, "Instances", obj_paddle)
+		pos_x = room_width/2
+		pos_y = room_height-32
+		if ds_list_size(sockets) == 2 {
+			pos_y = 0
+		}
+		var p = instance_create_layer(pos_x, pos_y, "Instances", obj_paddle)
 		ds_map_add(clients, sock, p)
 	}
 	
