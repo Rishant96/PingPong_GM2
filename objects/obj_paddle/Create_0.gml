@@ -6,3 +6,5 @@ keys[KEY_RIGHT] = false
 
 walking_speed = 4
 hspd = 0
+
+name = "Player"
