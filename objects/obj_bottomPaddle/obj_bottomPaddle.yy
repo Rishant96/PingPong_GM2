@@ -2,7 +2,7 @@
     "id": "4ded1e10-9025-4110-a679-a5e482af1bad",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy_paddle",
+    "name": "obj_bottomPaddle",
     "eventList": [
         {
             "id": "125ca0b0-b0e5-4bc0-ba66-d718da4d8f5f",
@@ -32,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "312f85bc-1dae-47f0-89f6-468c1cf0f158",
     "visible": true
 }

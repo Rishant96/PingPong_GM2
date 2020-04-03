@@ -1,8 +1,8 @@
 {
-    "id": "afa1b17c-97fb-478d-8ab5-368788124dd2",
+    "id": "2c042f22-b2be-438e-bb07-c909d47a1f29",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SendRemoteEntity",
+    "name": "scr_angle",
     "IsCompatibility": false,
     "IsDnD": false
 }
