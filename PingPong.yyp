@@ -34,7 +34,7 @@
             "Key": "165a7c84-a3d0-49ae-88b3-aaf03e4f2b30",
             "Value": {
                 "id": "7021adfd-9240-4f8a-a9ec-9d9bcda7a7bb",
-                "resourcePath": "objects\\obj_freeze\\obj_freeze.yy",
+                "resourcePath": "objects\\obj_blink\\obj_blink.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "85a8b35e-0d8f-45bb-ae11-3b3b91c3a5e9",
             "Value": {
                 "id": "979c83ae-12dd-453d-803d-894bc5337860",
-                "resourcePath": "sprites\\spr_freeze\\spr_freeze.yy",
+                "resourcePath": "sprites\\spr_blink\\spr_blink.yy",
                 "resourceType": "GMSprite"
             }
         },

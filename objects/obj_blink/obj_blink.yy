@@ -2,7 +2,7 @@
     "id": "165a7c84-a3d0-49ae-88b3-aaf03e4f2b30",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_freeze",
+    "name": "obj_blink",
     "eventList": [
         {
             "id": "08d4ce73-6f19-4d63-bbc9-871a46a04f8c",

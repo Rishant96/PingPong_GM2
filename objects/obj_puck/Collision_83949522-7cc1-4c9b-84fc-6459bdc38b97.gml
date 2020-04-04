@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(obj_freeze)
+instance_destroy(obj_blink)
 
 
 instance_deactivate_object(obj_bottomPaddle)
