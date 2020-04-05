@@ -4,6 +4,7 @@
 // packets
 #macro PACKET_KEY       0
 #macro PACKET_ENTITY    1
+#macro PACKET_NAME      2
 
 server = network_create_server(network_socket_tcp, PORT, MAX_CLIENTS)
 

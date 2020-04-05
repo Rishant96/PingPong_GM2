@@ -13,3 +13,4 @@ x = clamp(x, sprite_width/2, room_width-(sprite_width/2))
 
 hspd = walking_speed*(keys[KEY_RIGHT]-keys[KEY_LEFT])
 x += hspd
+x = clamp(x, sprite_width/2, room_width-(sprite_width/2))

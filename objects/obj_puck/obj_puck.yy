@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_puck",
     "eventList": [
-        
+        {
+            "id": "78617820-48ef-48e6-8392-19fdab8424d9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "58f34c42-be30-46e0-81f9-e4a19c619c99"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

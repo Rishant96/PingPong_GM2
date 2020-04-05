@@ -23,6 +23,14 @@ if server == event_id {
 			SendRemoteEntity(sock, CMD_NAME, pl.id, pl.name)
 			SendRemoteEntity(sock, CMD_SPRITE, pl.id, pl.sprite_index)
 		}
+		
+		for (var i=0; i < instance_number(obj_puck); i++) {
+			var pk = instance_find(obj_puck, i)
+			SendRemoteEntity(sock, CMD_X, pk.id, pk.x)
+			SendRemoteEntity(sock, CMD_Y, pk.id, pk.y)
+			SendRemoteEntity(sock, CMD_NAME, pk.id, pl.name)
+			SendRemoteEntity(sock, CMD_SPRITE, pk.id, pk.sprite_index)
+		}
 	}
 	
 	// client disconnecting
@@ -54,6 +62,15 @@ else if event_id != global.socket {
 				
 				keys[key] = state
 			}
-			break
+		break
+		
+		case PACKET_NAME:
+			p.name = buffer_read(buff, buffer_string)
+			
+			for (var s=0; s < ds_list_size(sockets); s++) {
+				var so = ds_list_find_value(sockets, s)
+				SendRemoteEntity(so, CMD_NAME, p.id, p.name)
+			}
+		break
 	}
 }
