@@ -2,7 +2,7 @@
     "id": "312f85bc-1dae-47f0-89f6-468c1cf0f158",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_paddle",
+    "name": "spr_paddle_h",
     "For3D": false,
     "HTile": false,
     "VTile": false,

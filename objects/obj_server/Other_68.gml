@@ -13,11 +13,19 @@ if server == event_id {
 		if ds_list_size(sockets) == 2 {
 			pos_y = 0
 		}
-		var p = instance_create_layer(pos_x, pos_y, "Instances", obj_paddle)
+		var p = instance_create_layer(pos_x, pos_y, "Instances", obj_paddle_h)
 		ds_map_add(clients, sock, p)
 		
-		for (var i=0; i < instance_number(obj_paddle); i++) {
-			var pl = instance_find(obj_paddle, i)
+		for (var i=0; i < instance_number(obj_paddle_h); i++) {
+			var pl = instance_find(obj_paddle_h, i)
+			SendRemoteEntity(sock, CMD_X, pl.id, pl.x)
+			SendRemoteEntity(sock, CMD_Y, pl.id, pl.y)
+			SendRemoteEntity(sock, CMD_NAME, pl.id, pl.name)
+			SendRemoteEntity(sock, CMD_SPRITE, pl.id, pl.sprite_index)
+		}
+		
+		for (var i=0; i < instance_number(obj_paddle_v); i++) {
+			var pl = instance_find(obj_paddle_v, i)
 			SendRemoteEntity(sock, CMD_X, pl.id, pl.x)
 			SendRemoteEntity(sock, CMD_Y, pl.id, pl.y)
 			SendRemoteEntity(sock, CMD_NAME, pl.id, pl.name)
