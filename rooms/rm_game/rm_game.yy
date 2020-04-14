@@ -11,7 +11,8 @@
         "39f02da4-e825-49d4-8396-ab2dab2acccf",
         "915a9900-3fbc-4177-9c41-ef3987dbb978",
         "87cfe2aa-5b4c-4931-b936-8c8b88aca2bb",
-        "1c9f300f-e7e0-4421-94bf-00608fdd4c89"
+        "1c9f300f-e7e0-4421-94bf-00608fdd4c89",
+        "0175e814-2daf-4a55-bfbc-bf0c97cd1ab3"
     ],
     "IsDnD": false,
     "layers": [
@@ -33,7 +34,8 @@
 {"name": "inst_3889582D","id": "39f02da4-e825-49d4-8396-ab2dab2acccf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": true,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3889582D","objId": "58f34c42-be30-46e0-81f9-e4a19c619c99","properties": null,"rotation": 0,"scaleX": 0.5,"scaleY": 0.5,"mvc": "1.1","x": 512,"y": 352},
 {"name": "inst_3BDDF54B","id": "915a9900-3fbc-4177-9c41-ef3987dbb978","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": true,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3BDDF54B","objId": "e7ce600b-eb44-43b2-825e-9f07d8385760","properties": null,"rotation": 0,"scaleX": 2,"scaleY": 1,"mvc": "1.1","x": 448,"y": 0},
 {"name": "inst_38A746B1","id": "87cfe2aa-5b4c-4931-b936-8c8b88aca2bb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": true,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_38A746B1","objId": "4ded1e10-9025-4110-a679-a5e482af1bad","properties": null,"rotation": 0,"scaleX": 2,"scaleY": 1,"mvc": "1.1","x": 512,"y": 0},
-{"name": "inst_93F2C81","id": "1c9f300f-e7e0-4421-94bf-00608fdd4c89","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_93F2C81","objId": "7f1cb4be-a947-424c-8bcf-a40f231f4f80","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 960,"y": 704}
+{"name": "inst_93F2C81","id": "1c9f300f-e7e0-4421-94bf-00608fdd4c89","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_93F2C81","objId": "7f1cb4be-a947-424c-8bcf-a40f231f4f80","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 960,"y": 704},
+{"name": "inst_3AC1D5A","id": "0175e814-2daf-4a55-bfbc-bf0c97cd1ab3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3AC1D5A","objId": "8bdb222d-5cc7-4888-a9e8-182a121a707f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 896,"y": 704}
             ],
             "layers": [
 
@@ -51,7 +53,7 @@
             "id": "37b1af9e-148a-4850-a19e-82d4c4edc27d",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4286472524 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
