@@ -5,6 +5,6 @@ if !isPlaying {
 	vspeed = 0
 }
 else {
-	hspeed = random_range(-5, 5)	
-	vspeed = random_range(-5, 5)
+	hspeed = random_range(-5, 5) + 2
+	vspeed = random_range(-5, 5) + 2
 }
