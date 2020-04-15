@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-//insert code to make the paddles temporarily disapear
+
+alarm[0]=room_speed*3
