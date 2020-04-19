@@ -1,3 +1,5 @@
+// Handles Interactivity for the clients
+
 if keyboard_check_pressed(vk_left) {
 	SendKey(KEY_LEFT, true)
 }
