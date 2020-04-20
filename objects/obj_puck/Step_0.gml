@@ -1,4 +1,4 @@
-if y < 0 or y > room_height {
+if y < sprite_height/2 or y > room_height - (sprite_height/2) {
 	x = room_width/2
 	y = room_height/2
 	
@@ -7,7 +7,7 @@ if y < 0 or y > room_height {
 	isPlaying = false
 }
 
-if x < 0 or x > room_width {
+if x < sprite_width/2 or x > room_width - sprite_width/2 {
 	hspeed = -1 * hspeed
 }
 

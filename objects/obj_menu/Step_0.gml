@@ -13,7 +13,7 @@ if (keyboard_check_pressed(vk_enter)) {
 		case 0:
 			// create a game
 			instance_create_layer(0,0, "Instances", obj_server)
-			instance_create_layer(0,0, "Instances", obj_spawner)
+			// instance_create_layer(0,0, "Instances", obj_spawner)
 			room_goto_next()
 		break
 		

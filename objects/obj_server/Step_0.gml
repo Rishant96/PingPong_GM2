@@ -28,12 +28,3 @@ for (var i=0; i < instance_number(obj_puck); i++) {
 		SendRemoteEntity(so, CMD_Y, pk.id, pk.y)
 	}
 }
-
-for (var i=0; i < instance_number(obj_special_1); i++) {
-	var pk = instance_find(obj_special_1, i)
-	for (var s=0; s < ds_list_size(sockets); s++) {
-		var so = ds_list_find_value(sockets, s)
-		SendRemoteEntity(so, CMD_X, pk.id, pk.x)
-		SendRemoteEntity(so, CMD_Y, pk.id, pk.y)
-	}
-}

@@ -12,5 +12,5 @@ x = clamp(x, sprite_width/2, room_width-(sprite_width/2))
 */
 
 vspd = walking_speed*(keys[KEY_UP]-keys[KEY_DOWN])
-y += vspd
+y -= vspd
 y = clamp(y, sprite_height/2, room_height-(sprite_height/2))
