@@ -20,3 +20,9 @@ if y < 0 or y > room_height {
 if x < 0 or x > room_width {
 	hspeed = -1 * hspeed
 }
+if(room==rm_win){
+instance_destroy()
+}
+if(room==rm_loss){
+instance_destroy()
+}
