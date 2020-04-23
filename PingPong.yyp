@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "4d53e335-a1b6-4b46-ad5d-1687c414aadc",
+            "Value": {
+                "id": "d3cf21b6-310e-4765-bc1b-ecbc0c6e5892",
+                "resourcePath": "sprites\\sprite6\\sprite6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ded1e10-9025-4110-a679-a5e482af1bad",
             "Value": {
                 "id": "2d61ac74-85dc-415b-90da-aa71eedff3a2",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "d3c10785-1c05-4579-b9a1-b52ef8ee7d8a",
+            "Value": {
+                "id": "532d4605-f770-4bdd-b16b-acce8970ab9c",
+                "resourcePath": "sprites\\spr_tennisBall\\spr_tennisBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9c2ea78-abec-4886-af0b-75c701609ec0",
             "Value": {
                 "id": "23eb047d-19d7-4ddc-b666-eed629cacd81",
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "e1750c24-e6df-4250-81ea-325e6bcfa346",
+            "Value": {
+                "id": "adaf1f8e-5d7f-4fb5-b72a-5feffe110438",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3ef86f7-38eb-448a-bf67-94253c6a75c5",
             "Value": {
                 "id": "ead8c56b-db0d-4ae5-941a-321125e6afdf",
@@ -403,6 +427,14 @@
             "Value": {
                 "id": "7b0b581d-c90f-40a5-891d-3b196946c888",
                 "resourcePath": "objects\\obj_paddle_h\\obj_paddle_h.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed4f009a-4e19-4713-8e9b-c202191a5e60",
+            "Value": {
+                "id": "2f1af0e0-a821-4e6a-b5f8-dead16e5cc57",
+                "resourcePath": "objects\\obj_puckSpeedBoost\\obj_puckSpeedBoost.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -420,6 +452,14 @@
                 "id": "ebf1a00e-2b4d-45e5-879f-724bbc2af0ae",
                 "resourcePath": "views\\f97606ed-9e1a-43eb-a307-916ad7f722e2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fccca4fb-5a46-4204-a6df-2e05781d0d3e",
+            "Value": {
+                "id": "4b68b062-a04d-4e7d-8506-88e9c594e369",
+                "resourcePath": "sprites\\spr_paddle_h1\\spr_paddle_h1.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
