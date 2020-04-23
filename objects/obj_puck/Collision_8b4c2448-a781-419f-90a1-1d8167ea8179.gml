@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-hspeed*=1.5
-vspeed*=1.5
+hspeed/=2
+vspeed/=2
 
-alarm[0] = room_speed
+alarm[1] = room_speed
 instance_destroy(other)
