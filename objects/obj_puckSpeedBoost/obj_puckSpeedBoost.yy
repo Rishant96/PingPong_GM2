@@ -1,18 +1,18 @@
 {
-    "id": "4ded1e10-9025-4110-a679-a5e482af1bad",
+    "id": "ed4f009a-4e19-4713-8e9b-c202191a5e60",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy_paddle",
+    "name": "obj_puckSpeedBoost",
     "eventList": [
         {
-            "id": "125ca0b0-b0e5-4bc0-ba66-d718da4d8f5f",
+            "id": "a3bcda59-ede8-4bc5-af09-c2ad88ddc1da",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4ded1e10-9025-4110-a679-a5e482af1bad"
+            "eventtype": 0,
+            "m_owner": "ed4f009a-4e19-4713-8e9b-c202191a5e60"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fccca4fb-5a46-4204-a6df-2e05781d0d3e",
+    "spriteId": "e1750c24-e6df-4250-81ea-325e6bcfa346",
     "visible": true
 }
