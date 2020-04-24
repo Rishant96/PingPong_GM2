@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0] = 300
+instance_create_depth(room_width/2,room_height/2,1,obj_ghost)
+//alarm[0]=room_speed
