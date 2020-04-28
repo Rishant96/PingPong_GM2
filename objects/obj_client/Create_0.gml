@@ -11,3 +11,6 @@ if (connect < 0) {
 
 entities = ds_map_create()
 SendName(global.name)
+
+cpuScore = 0
+plrScore = 0

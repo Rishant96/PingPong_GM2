@@ -1,13 +1,20 @@
-if y < sprite_height/2 or y > room_height - (sprite_height/2) {
+if y < 0 or y > room_height {
 	x = room_width/2
 	y = room_height/2
-	
 	hspeed = 0
-	vspeed = 0
+	vspeed = 5
 	isPlaying = false
 }
 
-if x < sprite_width/2 or x > room_width - sprite_width/2 {
+if y <= 0 {
+	plrScore++;	
+}
+
+if y >= room_height {
+	cpuScore++;
+}
+
+if x < 0 or x > room_width {
 	hspeed = -1 * hspeed
 }
 

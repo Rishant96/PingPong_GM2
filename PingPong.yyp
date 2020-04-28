@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "717f1097-df14-4804-aeab-f08a5a28b837",
+            "Value": {
+                "id": "1b57f713-88f4-4835-9be1-eacfc663419c",
+                "resourcePath": "objects\\obj_scoreboard\\obj_scoreboard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "79194e43-e9cf-4cf3-99d3-737eb2b98e81",
             "Value": {
                 "id": "0d60fcbb-5d3d-4995-b7f4-dc4ee69d22ed",
